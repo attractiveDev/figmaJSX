@@ -1,0 +1,19 @@
+@use "../../scss/forwards" as *;
+
+.idle {
+  color: $text-highlight;
+  font-size: $regular-font-size;
+  text-decoration: underline;
+  user-select: none;
+  cursor: pointer;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.selected {
+  color: rgb(207, 207, 207);
+  font-size: $regular-font-size;
+  user-select: none;
+}
